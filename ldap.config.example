@@ -1,0 +1,17 @@
+# complete and save as "ldap.config"
+
+# YOUR (authorized) username
+LDAP_USERNAME="YOUR_USERNAME"
+
+# YOUR (authorized) password
+LDAP_PASSWORD="YOUR_PASSWORD"
+
+LDAP_SERVER="YOUR_LDAP_SERVER_URL"
+
+# SSL port
+LDAP_PORT=636
+# non-SSL port (requires use of -i argument)
+#LDAP_PORT=389
+
+OU="ORGAZATIONAL_UNIT"
+DC="DOMAIN_COMPONENTS"
